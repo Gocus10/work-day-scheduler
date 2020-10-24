@@ -1,6 +1,7 @@
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
+  font-weight: bold;
   line-height: 1;
 }
 
@@ -68,4 +69,7 @@ textarea{
 .saveBtn i:hover {
   font-size: 20px;
   transition: all .3s ease-in-out;
+}
+.saveBtn i:focus{
+  background-color: #06AED5;
 }
