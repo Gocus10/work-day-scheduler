@@ -12,6 +12,7 @@ textarea{
   color: #000000;
   border-left: 1px solid black;
   padding: 10px;
+  font-weight: bold;
 }
 
 .jumbotron {
@@ -45,17 +46,14 @@ textarea{
 
 .past {
   background-color: #d3d3d3;
-  color: white;
 }
 
 .present {
   background-color: #ff6961;
-  color: white;
 }
 
 .future {
   background-color: #77dd77;
-  color: white;
 }
 
 .saveBtn {
@@ -70,6 +68,8 @@ textarea{
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
-.saveBtn i:focus{
-  background-color: #06AED5;
+textarea:focus{
+  outline: none !important;
+  border: 5px solid #06AED5;
+  box-shadow: 0 0 10px #06AED5;
 }
